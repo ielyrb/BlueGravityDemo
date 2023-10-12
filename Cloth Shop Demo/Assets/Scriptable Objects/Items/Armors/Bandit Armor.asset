@@ -19,7 +19,7 @@ MonoBehaviour:
   Slot: 0
   Type: 0
   Sprite:
-  - {fileID: 21300000, guid: ed7083b3dbbb9f34abb165920503d045, type: 3}
-  - {fileID: 21300000, guid: 403e6e8996854434fb5185b2c9bd6be4, type: 3}
-  - {fileID: 21300000, guid: cfb60a561d811cf409bd22c246e0c183, type: 3}
+  - {fileID: 21300000, guid: 6223366c0d06cfa48b392f03ad8868aa, type: 3}
+  - {fileID: 21300000, guid: 9b4a3e8128be6284bafa0f5867d36b0c, type: 3}
+  - {fileID: 21300000, guid: 36a8dfa365054354b84615ee7810c5d1, type: 3}
   Icon: {fileID: 21300000, guid: 5105fe1d825990746b9a92407ea447ca, type: 3}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d941d5cd739f54141b7aa94bfced2273, type: 3}
+  m_Name: Dark Mountain Boots
+  m_EditorClassIdentifier: 
+  Name: Dark Mountain Boots
+  BuyPrice: 100
+  SellPrice: 0
+  Description: Lorem Ipsum
+  Slot: 0
+  Type: 2
+  Sprite:
+  - {fileID: 21300000, guid: 6a0b6fa5cc31a1a4fb642f3d0e2c6217, type: 3}
+  - {fileID: 21300000, guid: 830f8372259686f4a886606e614bfecc, type: 3}
+  - {fileID: 21300000, guid: 9081c5b9b92bf5a469db128b4d34d14d, type: 3}
+  - {fileID: 21300000, guid: c7354181fcc931b4db9e837e430514c5, type: 3}
+  - {fileID: 21300000, guid: 274f5aeef6a84514cae16dc1d89ced96, type: 3}
+  Icon: {fileID: 21300000, guid: 84d6a36e47e8f9042a960a8b033203a1, type: 3}

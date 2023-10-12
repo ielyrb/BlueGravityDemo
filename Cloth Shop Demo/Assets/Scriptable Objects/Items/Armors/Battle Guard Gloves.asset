@@ -19,8 +19,8 @@ MonoBehaviour:
   Slot: 0
   Type: 3
   Sprite:
-  - {fileID: 21300000, guid: 85ce940a3fa16ba479aae36e7392fbb4, type: 3}
-  - {fileID: 21300000, guid: c70ab908ccaf9194ebceb69ec7de2e84, type: 3}
-  - {fileID: 21300000, guid: a3b3504f86fe8c54b8de0064c9bef26b, type: 3}
-  - {fileID: 21300000, guid: 25557a6ad11eea140a9f89c84dbcfdde, type: 3}
+  - {fileID: 21300000, guid: 4277c082fd9426542927bc56605c4ffe, type: 3}
+  - {fileID: 21300000, guid: c980384832486cf4bbaa4ed12336ad9a, type: 3}
+  - {fileID: 21300000, guid: 0f9c2c42091b39e4bb25b427d4467654, type: 3}
+  - {fileID: 21300000, guid: 260ecde5aa669cb4aa0ff8764ffc88b3, type: 3}
   Icon: {fileID: 21300000, guid: a889cb8ba677b3e418c33307c1336099, type: 3}

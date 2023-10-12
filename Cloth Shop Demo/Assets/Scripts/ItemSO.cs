@@ -9,7 +9,7 @@ public class ItemSO : ScriptableObject
     public int BuyPrice;
     public int SellPrice;
     public string Description;
-    public SpriteSlot Slot;
+    [HideInInspector] public SpriteSlot Slot;
     public EquipmentType Type;
     [JsonIgnore] public List<Sprite> Sprite;
     [JsonIgnore] public Sprite Icon;

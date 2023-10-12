@@ -10,17 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d941d5cd739f54141b7aa94bfced2273, type: 3}
-  m_Name: Bandit Gloves
+  m_Name: Dark Mountain Armor
   m_EditorClassIdentifier: 
-  Name: Bandit Gloves
+  Name: Dark Mountain Armor
   BuyPrice: 100
   SellPrice: 0
   Description: Lorem Ipsum
   Slot: 0
-  Type: 3
+  Type: 0
   Sprite:
-  - {fileID: 21300000, guid: d82245604c3ec2f4aba6c52f276d37b8, type: 3}
-  - {fileID: 21300000, guid: 28263a707d86d5f4e9c3e66c0ee6b5bc, type: 3}
-  - {fileID: 21300000, guid: 242da9c82aac9c745abf023a38f16e74, type: 3}
-  - {fileID: 21300000, guid: 7e2adf31028c57048bc8b2a7e2f3d755, type: 3}
-  Icon: {fileID: 21300000, guid: d7236dfb0d0b195439305df676f2425b, type: 3}
+  - {fileID: 21300000, guid: f169b593f2ae93e4aa0a0b76d8190d44, type: 3}
+  - {fileID: 21300000, guid: ca9b817a786036b458af6efd777b0652, type: 3}
+  - {fileID: 21300000, guid: 51a584e81f5ceb642b1c1be3cb6ed10b, type: 3}
+  Icon: {fileID: 21300000, guid: 62b4a2f3dff4a9a4ba03a764d5fdd006, type: 3}

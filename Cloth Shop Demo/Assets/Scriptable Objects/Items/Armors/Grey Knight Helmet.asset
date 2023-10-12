@@ -10,17 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d941d5cd739f54141b7aa94bfced2273, type: 3}
-  m_Name: Bandit Gloves
+  m_Name: Grey Knight Helmet
   m_EditorClassIdentifier: 
-  Name: Bandit Gloves
+  Name: Grey Knight Helmet
   BuyPrice: 100
   SellPrice: 0
   Description: Lorem Ipsum
   Slot: 0
-  Type: 3
+  Type: 1
   Sprite:
-  - {fileID: 21300000, guid: d82245604c3ec2f4aba6c52f276d37b8, type: 3}
-  - {fileID: 21300000, guid: 28263a707d86d5f4e9c3e66c0ee6b5bc, type: 3}
-  - {fileID: 21300000, guid: 242da9c82aac9c745abf023a38f16e74, type: 3}
-  - {fileID: 21300000, guid: 7e2adf31028c57048bc8b2a7e2f3d755, type: 3}
-  Icon: {fileID: 21300000, guid: d7236dfb0d0b195439305df676f2425b, type: 3}
+  - {fileID: 21300000, guid: 26432603e74257443972f550f892e2dd, type: 3}
+  - {fileID: 21300000, guid: fdd5f826d9d5fb5478c373e4969c13d4, type: 3}
+  Icon: {fileID: 21300000, guid: 896dada9aa8b8444b8145f80381d5fda, type: 3}
