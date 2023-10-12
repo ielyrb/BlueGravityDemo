@@ -1,9 +1,8 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
 public class PlayerMovement : MonoBehaviour
 {
-    Rigidbody2D rb;
+    [SerializeField] Rigidbody2D rb;
     [SerializeField] SpriteRenderer sr;
     [SerializeField] Animator ani;
     [SerializeField] float moveSpeed = 5;
@@ -13,20 +12,41 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movement;
     float finalSpeed;
 
-    private void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
+    GameObject nearestInteractable;
 
     private void Update()
     {
         HandleMovement();
+        HandleControls();
+    }
+
+    void HandleControls()
+    {
+        if(Input.GetKeyUp(KeyCode.Space))
+        {
+            //Open Shop
+            if (nearestInteractable != null)
+            {
+                View.GetView<ClothShopView>().InitializeShop();
+            }
+        }
     }
 
     void FixedUpdate()
     {
         finalSpeed = moveSpeed * (isSprinting == false ? 1 : sprintMultiplier);
         rb.MovePosition(rb.position + movement * finalSpeed * Time.fixedDeltaTime);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("Collided");
+        nearestInteractable = collision.gameObject;
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        nearestInteractable = null;
     }
 
     void HandleMovement()
@@ -37,7 +57,6 @@ public class PlayerMovement : MonoBehaviour
         HandleAnimation(movement);
 
         //Flip Sprite for Animation
-
         sr.flipX = movement.x < 0 || ani.GetBool("Face Left") == true ? true : false;
 
         if(Input.GetKeyDown(KeyCode.LeftShift))

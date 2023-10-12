@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d941d5cd739f54141b7aa94bfced2273, type: 3}
+  m_Name: Battle Guard Gloves
+  m_EditorClassIdentifier: 
+  Name: Battle Guard Gloves
+  BuyPrice: 100
+  SellPrice: 0
+  Description: Lorem Ipsum
+  Slot: 0
+  Type: 3
+  Sprite:
+  - {fileID: 21300000, guid: 85ce940a3fa16ba479aae36e7392fbb4, type: 3}
+  - {fileID: 21300000, guid: c70ab908ccaf9194ebceb69ec7de2e84, type: 3}
+  - {fileID: 21300000, guid: a3b3504f86fe8c54b8de0064c9bef26b, type: 3}
+  - {fileID: 21300000, guid: 25557a6ad11eea140a9f89c84dbcfdde, type: 3}
+  Icon: {fileID: 21300000, guid: a889cb8ba677b3e418c33307c1336099, type: 3}
