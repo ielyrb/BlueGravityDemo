@@ -37,14 +37,8 @@ public class PlayerMovement : MonoBehaviour
         HandleAnimation(movement);
 
         //Flip Sprite for Animation
-        if (movement.x < 0)
-        {
-            sr.flipX = true;
-        }
-        else
-        {
-            sr.flipX = false;
-        }
+
+        sr.flipX = movement.x < 0 || ani.GetBool("Face Left") == true ? true : false;
 
         if(Input.GetKeyDown(KeyCode.LeftShift))
         {
